@@ -1,0 +1,59 @@
+@use "../../utils" as *;
+
+/* footer section */
+.footer_section {
+  background: #272626;
+  padding: 110px 0 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  & .footer-widget-1 {
+    & p {
+      font-weight: 400;
+      font-size: 16px;
+      text-align: justify;
+      color: #ffffff;
+      line-height: 26px;
+      margin: 32px 60px 32px 0;
+    }
+    .footer_menu {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      & li {
+        margin-right: 16px;
+
+        & a {
+          color: #ff004c;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  & .widget_title {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+
+  & .widget_menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: block;
+
+    &:hover {
+      color: #ff004c;
+    }
+    & i {
+      margin-right: 14px;
+    }
+  }
+}
