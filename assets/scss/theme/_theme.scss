@@ -106,7 +106,7 @@ p,
 input,
 select,
 textarea,
-li{
+li {
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -210,15 +210,18 @@ textarea {
 }
 
 .site {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .site-content {
-	flex: 1;
+  flex: 1;
 }
-.container{
-  max-width: 990px;
+.container {
+  max-width: 990px; 
+  @media #{$xl} {
+    max-width: 670px;
+  }
 }
